@@ -55,7 +55,7 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>fr.umontpellier.hai704i.hotel.ServeurHotel</mainClass>
+                                    <mainClass>hotel.ServeurHotel</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
