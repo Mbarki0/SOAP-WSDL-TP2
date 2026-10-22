@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by XML-WS Runtime (https://github.com/eclipse-ee4j/metro-jax-ws). Runtime's version is XML-WS Runtime 4.0.5 git-revision#c828e2e. --><xs:schema xmlns:tns="http://hotel.hai704i.umontpellier.fr/" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" version="1.0" targetNamespace="http://hotel.hai704i.umontpellier.fr/">
+
+<xs:element name="AgenceInconnue" nillable="true" type="tns:fauteHotel"></xs:element>
+
+<xs:element name="AuthentificationRefusee" nillable="true" type="tns:fauteHotel"></xs:element>
+
+<xs:element name="DemandeInvalide" nillable="true" type="tns:fauteHotel"></xs:element>
+
+<xs:element name="OffreIndisponible" nillable="true" type="tns:fauteHotel"></xs:element>
+
+<xs:element name="PaiementInvalide" nillable="true" type="tns:fauteHotel"></xs:element>
+
+<xs:element name="chercherOffres" type="tns:chercherOffres"></xs:element>
+
+<xs:element name="chercherOffresResponse" type="tns:chercherOffresResponse"></xs:element>
+
+<xs:element name="reserver" type="tns:reserver"></xs:element>
+
+<xs:element name="reserverResponse" type="tns:reserverResponse"></xs:element>
+
+<xs:complexType name="reserver">
+<xs:sequence>
+<xs:element name="demande" type="tns:demandeReservation" form="unqualified" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="demandeReservation">
+<xs:sequence>
+<xs:element name="identifiantAgence" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="secretPresente" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="identifiantOffre" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="voyageur" type="tns:voyageur" minOccurs="0"></xs:element>
+<xs:element name="paiement" type="tns:paiement" minOccurs="0"></xs:element>
+<xs:element name="identifiantDemande" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="voyageur">
+<xs:sequence>
+<xs:element name="nom" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="prenom" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="paiement">
+<xs:sequence>
+<xs:element name="numeroCarte" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="moisExpiration" type="xs:int"></xs:element>
+<xs:element name="anneeExpiration" type="xs:int"></xs:element>
+<xs:element name="cvc" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="reserverResponse">
+<xs:sequence>
+<xs:element name="confirmation" type="tns:confirmationReservation" form="unqualified" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="confirmationReservation">
+<xs:sequence>
+<xs:element name="referenceReservation" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="identifiantDemande" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="identifiantOffre" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="nomHotel" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="dateArrivee" type="xs:date" minOccurs="0"></xs:element>
+<xs:element name="dateDepart" type="xs:date" minOccurs="0"></xs:element>
+<xs:element name="prixConfirme" type="xs:decimal" minOccurs="0"></xs:element>
+<xs:element name="devise" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="rejeu" type="xs:boolean"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fauteHotel">
+<xs:sequence>
+<xs:element name="code" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="message" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="chercherOffres">
+<xs:sequence>
+<xs:element name="demande" type="tns:rechercheOffres" form="unqualified" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="rechercheOffres">
+<xs:sequence>
+<xs:element name="identifiantAgence" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="ville" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="dateArrivee" type="xs:date" minOccurs="0"></xs:element>
+<xs:element name="dateDepart" type="xs:date" minOccurs="0"></xs:element>
+<xs:element name="nombrePersonnes" type="xs:int"></xs:element>
+<xs:element name="nombreEtoilesMinimum" type="xs:int"></xs:element>
+<xs:element name="prixMaximum" type="xs:decimal" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="chercherOffresResponse">
+<xs:sequence>
+<xs:element name="offre" type="tns:offre" form="unqualified" minOccurs="0" maxOccurs="unbounded"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="offre">
+<xs:sequence>
+<xs:element name="identifiantOffre" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="nomHotel" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="ville" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="nombreEtoiles" type="xs:int"></xs:element>
+<xs:element name="descriptionChambre" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="capacite" type="xs:int"></xs:element>
+<xs:element name="dateArrivee" type="xs:date" minOccurs="0"></xs:element>
+<xs:element name="dateDepart" type="xs:date" minOccurs="0"></xs:element>
+<xs:element name="prixTotal" type="xs:decimal" minOccurs="0"></xs:element>
+<xs:element name="devise" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

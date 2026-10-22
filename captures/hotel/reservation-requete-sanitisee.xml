@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copie expurgée : le secret, le numéro complet et le CVC ne sont pas archivés. -->
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"
+            xmlns:h="http://hotel.hai704i.umontpellier.fr/">
+  <S:Body>
+    <h:reserver>
+      <demande>
+        <h:identifiantAgence>AG-ALPHA</h:identifiantAgence>
+        <h:secretPresente>***</h:secretPresente>
+        <h:identifiantOffre>OFF-057319ff-2d8b-4630-a75e-fd3ee3326894</h:identifiantOffre>
+        <h:voyageur>
+          <h:nom>Martin</h:nom>
+          <h:prenom>Alice</h:prenom>
+        </h:voyageur>
+        <h:paiement>
+          <h:numeroCarte>************4242</h:numeroCarte>
+          <h:moisExpiration>12</h:moisExpiration>
+          <h:anneeExpiration>2027</h:anneeExpiration>
+          <h:cvc>***</h:cvc>
+        </h:paiement>
+        <h:identifiantDemande>REQ-DEMO-001</h:identifiantDemande>
+      </demande>
+    </h:reserver>
+  </S:Body>
+</S:Envelope>
+

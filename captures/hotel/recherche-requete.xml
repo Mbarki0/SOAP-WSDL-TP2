@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"
+            xmlns:h="http://hotel.hai704i.umontpellier.fr/">
+  <S:Body>
+    <h:chercherOffres>
+      <demande>
+        <h:identifiantAgence>AG-ALPHA</h:identifiantAgence>
+        <h:ville>Montpellier</h:ville>
+        <h:dateArrivee>2026-11-10</h:dateArrivee>
+        <h:dateDepart>2026-11-13</h:dateDepart>
+        <h:nombrePersonnes>2</h:nombrePersonnes>
+        <h:nombreEtoilesMinimum>3</h:nombreEtoilesMinimum>
+        <h:prixMaximum>500.00</h:prixMaximum>
+      </demande>
+    </h:chercherOffres>
+  </S:Body>
+</S:Envelope>
+
