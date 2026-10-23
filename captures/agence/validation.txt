@@ -1,0 +1,5 @@
+Deux JVM hotel reelles ; quatre offres agregees avant reservation.
+Trois nuits : AG-ALPHA / Hotel du Port = 214.20 EUR ; AG-BETA = 231.84 EUR.
+Authentification refusee sans reservation ; succes ; prix identique ; rejeu meme reference ; offre indisponible.
+Hotel du Port arrete : offres des Arenes conservees et incident signale.
+Secrets des configurations temporaires remplaces par des empreintes de test ; sources de A inchangees.

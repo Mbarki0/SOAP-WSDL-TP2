@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body>
+        <S:Fault xmlns:ns4="http://www.w3.org/2003/05/soap-envelope">
+            <faultcode>S:Server</faultcode>
+            <faultstring>Authentification refusee</faultstring>
+            <detail>
+                <ns2:AuthentificationRefusee xmlns:ns2="http://hotel.hai704i.umontpellier.fr/">
+                    <ns2:code>AUTHENTIFICATION_REFUSEE</ns2:code>
+                    <ns2:message>Authentification refusee</ns2:message>
+                </ns2:AuthentificationRefusee>
+            </detail>
+        </S:Fault>
+    </S:Body>
+</S:Envelope>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body>
+        <ns2:reserverResponse xmlns:ns2="http://hotel.hai704i.umontpellier.fr/">
+            <confirmation>
+                <ns2:referenceReservation>RES-60ab9f0e-da8f-4462-bbd0-4f82e1961e10</ns2:referenceReservation>
+                <ns2:identifiantDemande>43dc2fd0-3966-4af5-9d3c-23fd8658c4db</ns2:identifiantDemande>
+                <ns2:identifiantOffre>OFF-7cbe3a28-dd78-403b-995d-b3e5b91a49ea</ns2:identifiantOffre>
+                <ns2:nomHotel>Hotel des Arenes</ns2:nomHotel>
+                <ns2:dateArrivee>2026-11-22</ns2:dateArrivee>
+                <ns2:dateDepart>2026-11-25</ns2:dateDepart>
+                <ns2:prixConfirme>248.40</ns2:prixConfirme>
+                <ns2:devise>EUR</ns2:devise>
+                <ns2:rejeu>true</ns2:rejeu>
+            </confirmation>
+        </ns2:reserverResponse>
+    </S:Body>
+</S:Envelope>

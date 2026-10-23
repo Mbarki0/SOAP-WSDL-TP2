@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body>
+        <ns2:chercherOffres xmlns:ns2="http://hotel.hai704i.umontpellier.fr/">
+            <demande>
+                <ns2:identifiantAgence>AG-INCONNUE</ns2:identifiantAgence>
+                <ns2:ville>Montpellier</ns2:ville>
+                <ns2:dateArrivee>2026-11-22</ns2:dateArrivee>
+                <ns2:dateDepart>2026-11-25</ns2:dateDepart>
+                <ns2:nombrePersonnes>2</ns2:nombrePersonnes>
+                <ns2:nombreEtoilesMinimum>3</ns2:nombreEtoilesMinimum>
+                <ns2:prixMaximum>1000</ns2:prixMaximum>
+            </demande>
+        </ns2:chercherOffres>
+    </S:Body>
+</S:Envelope>

@@ -1,0 +1,10 @@
+Agence de voyage - demonstration avec paiements exclusivement fictifs.
+
+1 Rechercher | 2 Reserver une offre | 3 Reessayer la derniere demande | 4 Revoir les offres | 0 Quitter
+Votre choix : Ville : Arrivee (AAAA-MM-JJ) : Depart (AAAA-MM-JJ) : Nombre de personnes : Etoiles minimum (0-5) : Budget TOTAL maximal en EUR : Incident - Hotel du Port : Hotel injoignable, delai depasse ou reponse technique invalide.
+Offres triees par devise, prix total puis nom d'hotel :
+1. Hotel des Arenes (4 etoiles) - Chambre double - 2 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 248.40 EUR
+2. Hotel des Arenes (4 etoiles) - Chambre triple - 3 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 345.60 EUR
+
+1 Rechercher | 2 Reserver une offre | 3 Reessayer la derniere demande | 4 Revoir les offres | 0 Quitter
+Votre choix : Agence fermee. Au revoir.

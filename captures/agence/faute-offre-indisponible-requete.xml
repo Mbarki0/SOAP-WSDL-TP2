@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body>
+        <ns2:reserver xmlns:ns2="http://hotel.hai704i.umontpellier.fr/">
+            <demande>
+                <ns2:identifiantAgence>AG-ALPHA</ns2:identifiantAgence>
+                <ns2:secretPresente>[EXPURGE]</ns2:secretPresente>
+                <ns2:identifiantOffre>OFF-7cbe3a28-dd78-403b-995d-b3e5b91a49ea</ns2:identifiantOffre>
+                <ns2:voyageur>
+                    <ns2:nom>Martin</ns2:nom>
+                    <ns2:prenom>Alice</ns2:prenom>
+                </ns2:voyageur>
+                <ns2:paiement>
+                    <ns2:numeroCarte>[EXPURGE]</ns2:numeroCarte>
+                    <ns2:moisExpiration>12</ns2:moisExpiration>
+                    <ns2:anneeExpiration>2028</ns2:anneeExpiration>
+                    <ns2:cvc>[EXPURGE]</ns2:cvc>
+                </ns2:paiement>
+                <ns2:identifiantDemande>a03a2d07-f2d2-4c2e-88dc-56994daece05</ns2:identifiantDemande>
+            </demande>
+        </ns2:reserver>
+    </S:Body>
+</S:Envelope>

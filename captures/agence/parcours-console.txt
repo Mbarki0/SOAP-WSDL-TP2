@@ -1,0 +1,43 @@
+Agence de voyage - demonstration avec paiements exclusivement fictifs.
+
+1 Rechercher | 2 Reserver une offre | 3 Reessayer la derniere demande | 4 Revoir les offres | 0 Quitter
+Votre choix : Ville : Saisie invalide : Le champ est obligatoire.
+Ville : Arrivee (AAAA-MM-JJ) : Saisie invalide : Utilisez une date valide au format AAAA-MM-JJ.
+Arrivee (AAAA-MM-JJ) : Depart (AAAA-MM-JJ) : Nombre de personnes : Saisie invalide : Saisissez un nombre entier.
+Nombre de personnes : Etoiles minimum (0-5) : Budget TOTAL maximal en EUR : Offres triees par devise, prix total puis nom d'hotel :
+1. Hotel du Port (3 etoiles) - Chambre vue port - 2 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 214.20 EUR
+2. Hotel des Arenes (4 etoiles) - Chambre double - 2 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 248.40 EUR
+3. Hotel des Arenes (4 etoiles) - Chambre triple - 3 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 345.60 EUR
+4. Hotel du Port (3 etoiles) - Chambre familiale - 4 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 362.10 EUR
+
+1 Rechercher | 2 Reserver une offre | 3 Reessayer la derniere demande | 4 Revoir les offres | 0 Quitter
+Votre choix : Offres triees par devise, prix total puis nom d'hotel :
+1. Hotel du Port (3 etoiles) - Chambre vue port - 2 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 214.20 EUR
+2. Hotel des Arenes (4 etoiles) - Chambre double - 2 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 248.40 EUR
+3. Hotel des Arenes (4 etoiles) - Chambre triple - 3 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 345.60 EUR
+4. Hotel du Port (3 etoiles) - Chambre familiale - 4 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 362.10 EUR
+Numero d'offre (0 pour revenir) : Saisie invalide : Choisissez un entier entre 0 et 4.
+Numero d'offre (0 pour revenir) : Nom du voyageur : Prenom du voyageur : Identifiant de demande : 1fddf294-3de3-4a32-ba46-2dc36b971074
+Saisissez uniquement des coordonnees FICTIVES. Elles ne seront pas reaffichees ni enregistrees.
+Numero de carte fictif (16 chiffres, saisie masquee en terminal) : Mois d'expiration (1-12) : Annee d'expiration : CVC fictif (3 chiffres, saisie masquee en terminal) : Reservation confirmee : RES-8dea4196-86dc-497d-82db-b7f1ce5dbc42
+Prix annonce = prix confirme : 214.20 EUR
+
+1 Rechercher | 2 Reserver une offre | 3 Reessayer la derniere demande | 4 Revoir les offres | 0 Quitter
+Votre choix : Identifiant de demande : 1fddf294-3de3-4a32-ba46-2dc36b971074
+Saisissez uniquement des coordonnees FICTIVES. Elles ne seront pas reaffichees ni enregistrees.
+Numero de carte fictif (16 chiffres, saisie masquee en terminal) : Mois d'expiration (1-12) : Annee d'expiration : CVC fictif (3 chiffres, saisie masquee en terminal) : Reservation confirmee : RES-8dea4196-86dc-497d-82db-b7f1ce5dbc42
+Prix annonce = prix confirme : 214.20 EUR
+Demande deja traitee : meme reservation, aucun doublon.
+
+1 Rechercher | 2 Reserver une offre | 3 Reessayer la derniere demande | 4 Revoir les offres | 0 Quitter
+Votre choix : Offres triees par devise, prix total puis nom d'hotel :
+1. Hotel du Port (3 etoiles) - Chambre vue port - 2 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 214.20 EUR
+2. Hotel des Arenes (4 etoiles) - Chambre double - 2 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 248.40 EUR
+3. Hotel des Arenes (4 etoiles) - Chambre triple - 3 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 345.60 EUR
+4. Hotel du Port (3 etoiles) - Chambre familiale - 4 personnes max - 2026-12-07 au 2026-12-10 - TOTAL 362.10 EUR
+Numero d'offre (0 pour revenir) : Nom du voyageur : Prenom du voyageur : Identifiant de demande : 30dd03d6-5cd2-4815-ab9d-73c8a02a8b21
+Saisissez uniquement des coordonnees FICTIVES. Elles ne seront pas reaffichees ni enregistrees.
+Numero de carte fictif (16 chiffres, saisie masquee en terminal) : Mois d'expiration (1-12) : Annee d'expiration : CVC fictif (3 chiffres, saisie masquee en terminal) : Refus metier [OFFRE_INDISPONIBLE] : L'offre n'est plus disponible. Effectuez une nouvelle recherche.
+
+1 Rechercher | 2 Reserver une offre | 3 Reessayer la derniere demande | 4 Revoir les offres | 0 Quitter
+Votre choix : Agence fermee. Au revoir.

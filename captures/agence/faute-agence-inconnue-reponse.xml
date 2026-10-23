@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body>
+        <S:Fault xmlns:ns4="http://www.w3.org/2003/05/soap-envelope">
+            <faultcode>S:Server</faultcode>
+            <faultstring>Agence AG-INCONNUE non partenaire</faultstring>
+            <detail>
+                <ns2:AgenceInconnue xmlns:ns2="http://hotel.hai704i.umontpellier.fr/">
+                    <ns2:code>AGENCE_INCONNUE</ns2:code>
+                    <ns2:message>Agence AG-INCONNUE non partenaire</ns2:message>
+                </ns2:AgenceInconnue>
+            </detail>
+        </S:Fault>
+    </S:Body>
+</S:Envelope>
